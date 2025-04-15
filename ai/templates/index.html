@@ -1,0 +1,22 @@
+<script type="text/javascript">
+    var gk_fileData = {};
+    function loadFileData(filename) {
+      return gk_fileData[filename] || "";
+    }
+    </script><!DOCTYPE html>
+<html>
+<head>
+    <title>UltraLightAI</title>
+    <link id="theme" rel="stylesheet" href="/static/themes/light.css">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>UltraLightAI - Akıllı Sohbet Botu</h1>
+    <div id="chat-box"></div>
+    <input id="input-box" type="text" placeholder="Mesajınızı yazın...">
+    <button onclick="sendMessage()">Gönder</button>
+    <button id="theme-toggle" onclick="toggleTheme()">Tema Değiştir</button>
+    <button id="speech-toggle" onclick="toggleSpeech()">Sesli Giriş</button>
+    <script src="/static/script.js"></script>
+</body>
+</html>

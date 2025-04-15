@@ -1,0 +1,19 @@
+body {
+    background-color: #f0f0f0;
+    color: #000;
+}
+#chat-box {
+    background-color: #fff;
+    border-color: #ccc;
+}
+#input-box {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+}
+button {
+    background-color: #007bff;
+}
+button:hover {
+    background-color: #0056b3;
+}
